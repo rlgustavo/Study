@@ -18,7 +18,9 @@ public class Tester : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int a = 5;
+        /*
+        
+        int a = 5f;
         int b = 6;
 
         int sum = a + b;
@@ -28,12 +30,22 @@ public class Tester : MonoBehaviour
         print("The sum of A and B is " + sum);
 
 
-        
+        */
+        CalculateTwoNumbers(10, 10);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    void CalculateTwoNumbers(int a, int b)
+    {
+        // the code that we put here
+
+        int num1 = 5;
+        int num2 = 6;
+        print("The sum of num1 and num2 is " + (a + b));
     }
 }
