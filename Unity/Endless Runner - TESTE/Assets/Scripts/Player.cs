@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     [Header("Collision Info")]
     public float groundCheckDistance;
     public LayerMask whatIsGround;
-    private bool isGrounded;
+    [SerializeField] private bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -36,9 +36,18 @@ public class Player : MonoBehaviour
             
         }
 
+        AnimationControllers();
         CheckGround();
         CheckInput();
 
+    }
+
+
+    void AnimationControllers()
+    {
+        anim.SetBool("isGrounded", isGrounded);
+        anim.SetFloat("xVelocity", rb.velocity.x);
+        anim.SetFloat("yVelocity", rb.velocity.y);
     }
 
     void CheckGround()
@@ -49,12 +58,12 @@ public class Player : MonoBehaviour
 
     void CheckInput()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             runBegun = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Debug.Log("Estou Pulando");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
