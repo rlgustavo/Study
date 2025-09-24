@@ -4,8 +4,6 @@ import styled from 'styled-components';
 //Importando Fotos
 import foto1 from '../Assets/foto1.jpg';
 import foto2 from '../Assets/foto2.jpg';
-import foto3 from '../Assets/foto3.jpg';
-import foto4 from '../Assets/foto4.jpg';
 
 const Container = styled.section`
     margin-top: 30px;
@@ -19,7 +17,7 @@ const Foto = styled.img`
     margin: 0 10px;
 `
 
-const imagens = [foto1, foto2, foto3, foto4];
+const imagens = [foto1, foto2];
 
 function Carrousel(){
     return(
