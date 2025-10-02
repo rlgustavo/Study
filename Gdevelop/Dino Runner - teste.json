@@ -1,0 +1,3116 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 242,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "5c60f3eb-c4d1-4454-af75-fde70397784e",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Dino Runner - teste",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Dino Vita_Crouch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Crouch.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/07ddebe4b4dcdb8304f089667bc513aad3105b092bf210872276291458338b36_Dino Vita_Crouch.png",
+          "name": "Dino Vita_Crouch.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Hurt_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Hurt_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/5304b5b30e921a60d2d19674893617ae1a2e1747aac1764c064e64ddade11183_Dino Vita_Hurt_1.png",
+          "name": "Dino Vita_Hurt_1.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Hurt_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Hurt_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/acf13cb02f048e0edfea4b687617796dd05568bb8aa60e40bacabbf693bd1022_Dino Vita_Hurt_2.png",
+          "name": "Dino Vita_Hurt_2.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Hurt_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Hurt_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/33284258c5794077e1bf5794a637c469ebf85bbae5961b8f665f6fcb4705ab9e_Dino Vita_Hurt_3.png",
+          "name": "Dino Vita_Hurt_3.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Hurt_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Hurt_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/13994aaa32261402b4f5196d7723fb943cf6207ddda4ae70d938b363eadde0ca_Dino Vita_Hurt_4.png",
+          "name": "Dino Vita_Hurt_4.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/5304b5b30e921a60d2d19674893617ae1a2e1747aac1764c064e64ddade11183_Dino Vita_Idle_1.png",
+          "name": "Dino Vita_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/d1e67a284e0a6a15ed1649d016eff8c81a27dd2d558914ba3522ae2999a645e9_Dino Vita_Idle_2.png",
+          "name": "Dino Vita_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/e48d1f25fb0bc9a19926db7687d1bffaf9784257b25c80b33da5c66b927b80e2_Dino Vita_Idle_3.png",
+          "name": "Dino Vita_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/c21f7481e13f7a69575bcfa19f7431509985f55b031ef1bdd4e02c44d32b0edf_Dino Vita_Idle_4.png",
+          "name": "Dino Vita_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Kick_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Kick_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/5304b5b30e921a60d2d19674893617ae1a2e1747aac1764c064e64ddade11183_Dino Vita_Kick_1.png",
+          "name": "Dino Vita_Kick_1.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Kick_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Kick_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/9405ad43752db1905cdaa07455413006fcea3050f22b324bcd18ce1e63e6480e_Dino Vita_Kick_2.png",
+          "name": "Dino Vita_Kick_2.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Kick_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Kick_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/c660dae185489761b0765f6e42414587347a3c7b8881db10317f01934da2d1db_Dino Vita_Kick_3.png",
+          "name": "Dino Vita_Kick_3.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Move_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Move_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/4196814587df4d73e7f9627214ab752d0804f86c5a3b63bba60c3e2ab441ff2a_Dino Vita_Move_1.png",
+          "name": "Dino Vita_Move_1.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Move_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Move_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/84715f1abc0eb743af7d63ba7280ec289ad31c819941dca9c6adff246c015192_Dino Vita_Move_2.png",
+          "name": "Dino Vita_Move_2.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Move_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Move_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/934abb2066a46866ab900982d365702a0e887b15286df744fbeac74ce7b2a243_Dino Vita_Move_3.png",
+          "name": "Dino Vita_Move_3.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Move_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Move_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/0ed5907a8dbe5285efe5ee6cc1335271d2b79fee1bfc7611e6f69bb6366ce54c_Dino Vita_Move_4.png",
+          "name": "Dino Vita_Move_4.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Move_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Move_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/f33c91881aa79644019d6076a6b290202ad45ed0636399b7e6cd3499e144c157_Dino Vita_Move_5.png",
+          "name": "Dino Vita_Move_5.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Move_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Move_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/fa18bd651cfc156b5f2bfa9db221250c55d12a0409e275c080b668b5e68453d6_Dino Vita_Move_6.png",
+          "name": "Dino Vita_Move_6.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Sneak_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Sneak_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/94b6e9773bdddbdc181370f88cf3abf088145e9f2d76edc1c4c8931a6a3a63a1_Dino Vita_Sneak_1.png",
+          "name": "Dino Vita_Sneak_1.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Sneak_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Sneak_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/aa1d28856b09cea58cc6f47f77f5a9197d833101bb7382ebbfff35924428a675_Dino Vita_Sneak_2.png",
+          "name": "Dino Vita_Sneak_2.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Sneak_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Sneak_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/7e63d6a669ff47c0afc6157835aee55d3574becb511562e07dac9fc0bd43ee84_Dino Vita_Sneak_3.png",
+          "name": "Dino Vita_Sneak_3.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Sneak_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Sneak_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/06a36fdaa75b66c3d276dada104a50293e483aa2ee25f52d1b5b53f549541efd_Dino Vita_Sneak_4.png",
+          "name": "Dino Vita_Sneak_4.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Sneak_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Sneak_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/5b5ee80e8caec3a9447f2dddbcaebf8f2332cd3ea99a520ac0da250619f7765b_Dino Vita_Sneak_5.png",
+          "name": "Dino Vita_Sneak_5.png"
+        }
+      },
+      {
+        "file": "assets/Dino Vita_Sneak_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Vita_Sneak_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/22a7d926ef05e3d3f6daeb51f4ac68418350700430f669f94c39ed4948093fac_Dino Vita_Sneak_6.png",
+          "name": "Dino Vita_Sneak_6.png"
+        }
+      },
+      {
+        "file": "assets/9patch_Green leaves_all_128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Green leaves_all_128.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Ground/6d46ded7e8bb8db1460cf56ad9e01e0fa3197d3a9e16510f52cae2987f2d6002_9patch_Green leaves_all_128.png",
+          "name": "9patch_Green leaves_all_128.png"
+        }
+      },
+      {
+        "file": "assets/9patch_Green Grass 9Patch_all_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Green Grass 9Patch_all_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Terrain/d09644b38492bb7471261a37cf98e3c9685d4284cf3a4824bd52fc9c667736dc_9patch_Green Grass 9Patch_all_16.png",
+          "name": "9patch_Green Grass 9Patch_all_16.png"
+        }
+      },
+      {
+        "file": "assets/lava flatfriz bright desat surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lava flatfriz bright desat surface.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Lava/77960b33ede1d6454adf4391a275b599d537cb32fcdd8c41ffe155a44e42476a_lava flatfriz bright desat surface.png",
+          "name": "lava flatfriz bright desat surface.png"
+        }
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Cactus 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cactus 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Plant/025893ea2bc5cc2ba8a435ce3badaeb3105ed03741eccbaf506539cd4c24cdc0_Cactus 1.png",
+          "name": "Cactus 1.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Aerial Attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Aerial Attack.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/1f9088295b372e57cc2217444a5bb5247eb8806100ab49169be5eedfb0b5a43c_Chi Chi the Bird_Aerial Attack.png",
+          "name": "Chi Chi the Bird_Aerial Attack.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/9dc7356e0994b87b58e91451c48ba58ed2c5a02e2e20991714760cdff61db268_Chi Chi the Bird_Falling.png",
+          "name": "Chi Chi the Bird_Falling.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Flapping Wings_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/0695fb9e00620c3e49978a912115b8ec5e4c63bfc2950b7b7ea3bb540cef0b70_Chi Chi the Bird_Flapping Wings_1.png",
+          "name": "Chi Chi the Bird_Flapping Wings_1.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Flapping Wings_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/aabf824203cc1da9650615de5a5302affe154a7d8f254fec183e8fdee2ce709c_Chi Chi the Bird_Flapping Wings_2.png",
+          "name": "Chi Chi the Bird_Flapping Wings_2.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Flapping Wings_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/d4f211f8211c81ffbaae748150b236c67a07206f1d9536e3ba86d291e2570c8b_Chi Chi the Bird_Flapping Wings_3.png",
+          "name": "Chi Chi the Bird_Flapping Wings_3.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/f3a2cfe7ffc611d674d316e4797b4f973de5c018d79629d825bc89681e788f24_Chi Chi the Bird_Hurt.png",
+          "name": "Chi Chi the Bird_Hurt.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/db7b414f5e1e6c385b901b1394fa14ee3892cd006a2c05ab96c9acd7c0790963_Chi Chi the Bird_Standing.png",
+          "name": "Chi Chi the Bird_Standing.png"
+        }
+      },
+      {
+        "file": "assets/Long tree.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Long tree.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Long tree.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/9d58e34117b44c09b7cc915403c7a784385cd9fb125c4a23bd7190f1b07577fa_Long tree.png",
+          "name": "Long tree.png"
+        }
+      },
+      {
+        "file": "assets/Merged Full Background.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Merged Full Background.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Merged Full Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Backgrounds/34a4293e3c14f3b014e5d97a5faee8d20ad65701e29c0d651fba8e300188c595_Merged Full Background.png",
+          "name": "Merged Full Background.png"
+        }
+      },
+      {
+        "file": "assets/Full moon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Full moon.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/5a18fbf7eb242513100d087fac4792b0b48e67ba4ddc5479b1955e733caba48a_Full moon.png",
+          "name": "Full moon.png"
+        }
+      },
+      {
+        "file": "assets/Full moon2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Full moon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Merged Full Background.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Merged Full Background.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Long tree2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Long tree2.png\"}",
+        "name": "Long tree",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 71,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Jogo",
+      "name": "Jogo",
+      "r": 52,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 29,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6710943652414499,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dino_Vita",
+          "persistentUuid": "6a8d6d6b-7a9f-4478-88ca-9200df7b3989",
+          "width": 105,
+          "x": 109,
+          "y": 399,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Green_Grass_9Patch",
+          "persistentUuid": "3fd35ae1-f839-4fe4-9f09-21dec7592476",
+          "width": 1102,
+          "x": -89,
+          "y": 531,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 191,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Start",
+          "persistentUuid": "996f8c5e-f1d9-4256-858b-13d8f52801f4",
+          "width": 564,
+          "x": 123,
+          "y": 165,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spawn_Point",
+          "persistentUuid": "9cacef71-2edf-4651-b87a-011337ee73ff",
+          "width": 0,
+          "x": 922,
+          "y": 472,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 529,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "02a0e0bc-5579-422c-88d4-33241ec80268",
+          "width": 795,
+          "x": 3,
+          "y": -1,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 540,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "97002ea7-2093-4ee3-abec-42d782177900",
+          "width": 800,
+          "x": 0,
+          "y": -5,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "9163c8e7be832bda37495c941d0bf7e18a6bddd901ab925aa1dcd879b914bf5e",
+          "name": "Dino_Vita",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crouch",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Crouch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Hurt_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Hurt_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Hurt_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Hurt_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Kick",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Kick_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Kick_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Kick_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0833,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Move_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Move_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Move_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Move_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Move_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Move_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sneak",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0833,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Sneak_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Sneak_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Sneak_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Sneak_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Sneak_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dino Vita_Sneak_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 4
+                          },
+                          {
+                            "x": 19,
+                            "y": 21
+                          },
+                          {
+                            "x": 4,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "d8db1841a1ea153032d2fed6232833cf9d8219d058ceade0289a719c7f9ff71f",
+          "bottomMargin": 16,
+          "height": 48,
+          "leftMargin": 16,
+          "name": "Green_Grass_9Patch",
+          "rightMargin": 16,
+          "texture": "9patch_Green Grass 9Patch_all_16.png",
+          "tiled": true,
+          "topMargin": 16,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 48,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Start",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Tap To Start",
+          "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 80,
+          "color": {
+            "b": 227,
+            "g": 227,
+            "r": 238
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "19;18;18",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Tap To Start",
+            "font": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 80,
+            "lineHeight": 0,
+            "color": "238;227;227"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "531e7a0b598a2f0e2b8193781bce5dc000d694dc688eaa6b9fa4a3fc8f76827d",
+          "name": "espinho",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Cactus 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 61
+                          },
+                          {
+                            "x": 0,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Spawn_Point",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "445c46c6f04f1551e12d8ccea31a4e75ca6dda1aea141a0d7b8aa0ba337df4bc",
+          "name": "Bird",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chi Chi the Bird_Hurt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Aerial Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chi Chi the Bird_Aerial Attack.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Falling",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chi Chi the Bird_Falling.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Flapping Wings",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.3333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chi Chi the Bird_Flapping Wings_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chi Chi the Bird_Flapping Wings_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chi Chi the Bird_Flapping Wings_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Standing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chi Chi the Bird_Standing.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 600,
+          "name": "tree",
+          "texture": "Long tree.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 800,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "HorizontalTiledSpriteParallax",
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "4d95f1040058d92976a4f5690706f0470f85692101d35e3e2bf6e10dc27c4581",
+          "name": "Full_moon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Full moon",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Full moon",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18,
+                            "y": 19
+                          },
+                          {
+                            "x": 156,
+                            "y": 19
+                          },
+                          {
+                            "x": 156,
+                            "y": 156
+                          },
+                          {
+                            "x": 18,
+                            "y": 156
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "Full moon",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "14d39910f3c7f6795776a27d82bafef42e43fc3c7c75a1cd7edc2669de9ffedd",
+          "name": "Long_tree",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Long tree",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Long tree",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 500,
+                            "y": 103
+                          },
+                          {
+                            "x": 662,
+                            "y": 103
+                          },
+                          {
+                            "x": 662,
+                            "y": 600
+                          },
+                          {
+                            "x": 500,
+                            "y": 600
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 600,
+          "name": "NewTiledSprite2",
+          "texture": "Long tree",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 800,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Dino_Vita"
+          },
+          {
+            "objectName": "Start"
+          },
+          {
+            "objectName": "Green_Grass_9Patch"
+          },
+          {
+            "objectName": "espinho"
+          },
+          {
+            "objectName": "tree"
+          },
+          {
+            "objectName": "Spawn_Point"
+          },
+          {
+            "objectName": "Bird"
+          },
+          {
+            "objectName": "Full_moon"
+          },
+          {
+            "objectName": "Long_tree"
+          },
+          {
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Dino_Vita",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Dino_Vita",
+                "Animation",
+                "=",
+                "\"Move\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Start"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Cria Espinhos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Cria Bird\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Dino_Vita",
+                "PlatformerObject",
+                "\"Jump\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Down\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Dino_Vita",
+                "PlatformerObject",
+                "\"Ladder\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Dino_Vita",
+                "Animation",
+                "=",
+                "\"Sneak\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyReleased"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Dino_Vita",
+                "Animation",
+                "=",
+                "\"Move\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Cria Espinhos\"",
+                ">=",
+                "RandomFloatInRange(2, 5)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "espinho",
+                "Spawn_Point.X()",
+                "Spawn_Point.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "espinho",
+                "-500",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Cria Espinhos\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Cria Bird\"",
+                ">=",
+                "RandomFloatInRange(5, 10)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Bird",
+                "Spawn_Point.X()",
+                "Spawn_Point.Y() -50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Bird",
+                "Scale",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Bird",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bird",
+                "-500",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Cria Bird\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "NewTiledSprite",
+                "+",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "NewTiledSprite2",
+                "+",
+                "2"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "4ian",
+      "category": "Camera",
+      "extensionNamespace": "",
+      "fullName": "Parallax for Tiled Sprite",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWltYWdlLW1vdmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTUsM0gxOVYwTDI0LDVMMTksMTBWN0gxNVYzTTIxLDExLjk0VjE5QTIsMiAwIDAsMSAxOSwyMUg1QTIsMiAwIDAsMSAzLDE5VjVBMiwyIDAgMCwxIDUsM0gxMi4wNkMxMiwzLjMzIDEyLDMuNjcgMTIsNEE4LDggMCAwLDAgMjAsMTJDMjAuMzMsMTIgMjAuNjcsMTIgMjEsMTEuOTRNMTksMThMMTQuNSwxMkwxMSwxNi41TDguNSwxMy41TDUsMThIMTlaIiAvPjwvc3ZnPg==",
+      "name": "Parallax",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/image-move.svg",
+      "shortDescription": "Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.",
+      "version": "2.0.0",
+      "description": [
+        "Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.",
+        ""
+      ],
+      "origin": {
+        "identifier": "Parallax",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "parallax",
+        "tiled",
+        "background"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "changelog": [
+        {
+          "version": "2.0.0",
+          "breaking": "- The parallax now starts with an offset of 0."
+        }
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Move the image of a Tiled Sprite to follow the camera horizontally with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
+          "fullName": "Horizontal Parallax for a Tiled Sprite",
+          "name": "HorizontalTiledSpriteParallax",
+          "objectType": "TiledSpriteObject::TiledSprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "- The left side of the camera is used to have the left side of the image at X = 0 in the scene.\n  This also allows the image to keep the same location when the window ratio changes.\n\n- The camera left side is calculated for a zoom of 1 instead of using CameraBorderLeft() that use the current zoom.\n  It allows the image to keep the same location when the zoom change.\n\n(CameraCenterX(FollowedLayer) - CameraWidth(FollowedLayer) / 2 * CameraZoom(FollowedLayer)) * ParallaxFactor\n\nWhen a zoom changes, the object size in the scene also change to cover the screen.\nThis part of the formula takes this into account:\n\n(CameraZoom(Object.Layer()) - 1) * CameraWidth(Object.Layer()) / 2\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledSpriteObject::XOffset"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "(CameraCenterX(FollowedLayer) - CameraWidth(FollowedLayer) / 2 * CameraZoom(FollowedLayer)) * ParallaxFactor + (CameraZoom(Object.Layer()) - 1) * CameraWidth(Object.Layer()) / 2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "CameraBorderLeft(Object.Layer())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Resizable",
+                        "=",
+                        "CameraWidth(Object.Layer())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Parallax::HorizontalTiledSpriteParallax",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.5",
+              "type": "Number",
+              "label": "Parallax factor (speed for the parallax, usually between 0 and 1)",
+              "name": "ParallaxFactor"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Layer to be followed (leave empty for the base layer)",
+              "name": "FollowedLayer"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Move the image of a Tiled Sprite to follow the camera vertically with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
+          "fullName": "Vertical Parallax for a Tiled Sprite",
+          "name": "VerticalTiledSpriteParallax",
+          "objectType": "TiledSpriteObject::TiledSprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "See the comment in the other behavior for an explanation of this formula."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledSpriteObject::YOffset"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "(CameraCenterY(FollowedLayer) - CameraHeight(FollowedLayer) / 2 * CameraZoom(FollowedLayer)) * ParallaxFactor + (CameraZoom(Object.Layer()) - 1) * CameraHeight(Object.Layer()) / 2 + OffsetY"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "CameraBorderTop(Object.Layer())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Resizable",
+                        "=",
+                        "CameraHeight(Object.Layer())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Parallax::VerticalTiledSpriteParallax",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.5",
+              "type": "Number",
+              "label": "Parallax factor (speed for the parallax, usually between 0 and 1)",
+              "name": "ParallaxFactor"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Layer to be followed (leave empty for the base layer)",
+              "name": "FollowedLayer"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Offset on Y axis",
+              "name": "OffsetY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": []
+}

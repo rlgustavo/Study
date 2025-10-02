@@ -13,6 +13,8 @@ public class FPMove : MonoBehaviour
     public float maxSpeed = 5f;     // Velocidade m�xima horizontal
     private Rigidbody rb;
 
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
