@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     public int jumpForce;
     public bool runBegun; // verdadeiro ou falso
 
+    //POSSO PULAR
+    public bool puloDuplo;
+
     //COLISOES
     public bool isGrounded;
     public float groundDistance;
@@ -44,9 +47,9 @@ public class Player : MonoBehaviour
     // CRIANDO UMA Função
     void BotaoDoTeclado()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            Pulando();
             Debug.Log("Estou Pulando");
         }
 
@@ -56,12 +59,28 @@ public class Player : MonoBehaviour
         }
     }
 
+    void Pulando()
+    {
+        if(isGrounded == true)
+        {
+            puloDuplo = true;
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+        else if ( puloDuplo )
+        {
+            puloDuplo = false;
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+
+    }
+
     void AnimationControllers()
     {
         //Fazendo a Animação de Andar
         anim.SetFloat("xVelocity", rb.velocity.x);
         anim.SetFloat("yVelocity", rb.velocity.y);
         anim.SetBool("isGrounded", isGrounded);
+        anim.SetBool("puloDuplo", puloDuplo);
     }
 
     //TOCANDO NO CHAO 

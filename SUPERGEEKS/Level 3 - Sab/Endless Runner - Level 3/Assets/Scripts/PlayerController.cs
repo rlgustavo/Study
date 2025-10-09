@@ -6,12 +6,15 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 
-    public int jumpForce;
-    public float speed;
-    public bool isGrounded;
+    [Header(" Movimentação do Player ")]
+    [SerializeField] private int jumpForce;
+    [SerializeField] private float speed;
+
+    [Header(" Colisões ")]
+    private bool isGrounded;
 
     private Rigidbody2D rb;
-    public Animator Anim;
+    private Animator Anim;
 
 
     // Start is called before the first frame update

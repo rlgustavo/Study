@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private bool runBegun;
     [SerializeField] private float moveSpeed;
     [SerializeField] private int jumpForce;
+    [SerializeField] private bool canDoubleJump;
     
 
 
@@ -45,6 +46,7 @@ public class Player : MonoBehaviour
 
     void AnimationControllers()
     {
+        anim.SetBool("DoubleJump", canDoubleJump);
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("xVelocity", rb.velocity.x);
         anim.SetFloat("yVelocity", rb.velocity.y);
@@ -63,11 +65,25 @@ public class Player : MonoBehaviour
             runBegun = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Estou Pulando");
+            BotaoPular();
+        }
+    }
+
+    void BotaoPular()
+    {
+        if(isGrounded)
+        {
+            canDoubleJump = true;
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
+        else if (canDoubleJump)
+        {
+            canDoubleJump = false;
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+
     }
 
 

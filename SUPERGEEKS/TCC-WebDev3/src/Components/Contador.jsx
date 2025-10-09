@@ -61,7 +61,7 @@ function Contador(){
     );
 
     useEffect( () => {
-        const dataInicio = new Date( '2024-09-26T00:00:00' )
+        const dataInicio = new Date( '2001-11-04T00:00:00' )
 
         const atualizarTempo = () => {
             const agora = new Date();
