@@ -7,8 +7,8 @@ import Pedido from './Paginas/pedido';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
     <Routes>
-        <Route path='/' element={ <App />  }   />
-        <Route path='/pedido' element={ <Pedido />  }   />
+        <Route path='/home' element={ <App />  }   />
+        <Route path='/' element={ <Pedido />  }   />
 
     </Routes>
   </Router>

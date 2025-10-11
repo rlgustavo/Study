@@ -1,13 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 
 function Pedido () {
+    const navigate = useNavigate();
+    const aceitar = () => navigate('/home')
+
+    const [posicao, setPosicao] = useState( { top: null , left: null})
+
+    const fugir = () => {
+        const larguraMax = window.innerWidth - 120;
+        const alturaMax = window.innerHeight - 160;
+
+        const novaLeft = Math.random() * larguraMax;
+        const novaTop = Math.random() * alturaMax + 120;
+
+        setPosicao( { top: novaTop, left: novaLeft })
+    }
+
+    const isMobile = window.innerWidth <= 600;
+
     return(
         <Container>
+            <PedidoText> 
+                Lembrei do seu aniversario e 
+                você quer saber qual é o seu presente? 
+            </ PedidoText>
             <Botoes>
-                <BotaoSim> SIM </BotaoSim>
-                <BotaoNao> NÃO </BotaoNao>
+                <BotaoSim onClick={ aceitar } > SIM </BotaoSim>
+                < BotaoNao 
+                    onClick={isMobile ? fugir : undefined}
+                    onMouseEnter={ !isMobile ? fugir : undefined }  
+                    style={ {
+                        position: posicao.top === null ? 'relative' : 'absolute',
+                        top: posicao.top ?? 'auto',
+                        left: posicao.left ?? 'auto'
+                    } }
+                > 
+
+                NÃO </BotaoNao>
             </Botoes>
         </Container>
     )
@@ -17,6 +49,17 @@ export default Pedido;
 
 
 // estilos
+
+const PedidoText = styled.p `
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+    color: #0b0a0a;
+    margin-bottom: 30px;
+`
+
+
 const Botoes = styled.div`
     display: flex;
     gap: 50px;
@@ -26,6 +69,7 @@ const Botoes = styled.div`
 const BotaoSim = styled.button`
     background-color: #412706ff;
     padding: 10px 20px;
+    font-size: 1rem;
     color: #caa283ff;
     border-radius: 8px;
     border: none;
