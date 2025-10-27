@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 239,
+    "build": 243,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -308,7 +308,8 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 1.0269425874981069,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -528,11 +529,11 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 4000,
               "deceleration": 80000,
               "maxSpeed": 400,
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -723,9 +724,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 300,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 300
             }
           ],
           "animations": [
@@ -832,9 +833,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 300,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 300
             }
           ],
           "animations": [
@@ -4458,6 +4459,7 @@
               "extraInformation": [
                 "OpacityCapability::OpacityBehavior"
               ],
+              "choices": [],
               "name": "Opacity"
             },
             {
@@ -4467,6 +4469,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "TweenBehavior"
             },
             {
@@ -5325,6 +5328,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -6322,6 +6326,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -7194,8 +7199,8 @@
                   "behaviors": [
                     {
                       "name": "Anchor",
-                      "relativeToOriginalWindowSize": true,
                       "type": "AnchorBehavior::AnchorBehavior",
+                      "relativeToOriginalWindowSize": true,
                       "bottomEdgeAnchor": 2,
                       "leftEdgeAnchor": 1,
                       "rightEdgeAnchor": 2,
@@ -7282,7 +7287,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 96,
@@ -7361,8 +7367,8 @@
                   "behaviors": [
                     {
                       "name": "Anchor",
-                      "topEdgeAnchor": 1,
                       "type": "AnchorBehavior::AnchorBehavior",
+                      "topEdgeAnchor": 1,
                       "relativeToOriginalWindowSize": true,
                       "bottomEdgeAnchor": 2,
                       "leftEdgeAnchor": 1,
@@ -7450,7 +7456,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 48,
@@ -7617,7 +7624,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 48,
@@ -7786,7 +7794,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
@@ -8748,6 +8757,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -10268,6 +10278,7 @@
               "extraInformation": [
                 "Label"
               ],
+              "choices": [],
               "name": "ShowLabel"
             },
             {

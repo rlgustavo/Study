@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Botao from "./botao";
 
 const TextoPrincipal = styled.p`
     font-size: 1.2rem;
@@ -14,9 +15,16 @@ const TextoPrincipal = styled.p`
 //Criar a Função
 function Texto(){
     return(
-        <TextoPrincipal>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, vitae?
-        </TextoPrincipal>
+        <>
+        
+            <TextoPrincipal>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, vitae?
+            </TextoPrincipal>
+            <Botao 
+                pagina="/desafio"
+                texto="ir para desafio"
+            />
+        </>
     )
 
 }
