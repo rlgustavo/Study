@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Botao from "./botao";
 
 const TextoPrincipal = styled.p`
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin: 0 auto;
     text-align: center;
     max-width: 800px;
@@ -15,14 +15,13 @@ const TextoPrincipal = styled.p`
 //Criar a Função
 function Texto(){
     return(
-        <>
-        
+        <> 
             <TextoPrincipal>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, vitae?
-            </TextoPrincipal>
+                Parabens Prof Gu - você é muito querido pela gente
+            </TextoPrincipal>   
             <Botao 
                 pagina="/desafio"
-                texto="ir para desafio"
+                texto="Click Aqui"
             />
         </>
     )

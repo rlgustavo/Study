@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState }  from "react";
 import styled from "styled-components";
 import Botao from "../Components/botao";
+import Footer from "../Components/Footer";
 
 const EXT = ".jpg";
 const imagemPadrao =  Array.from(
@@ -101,6 +102,7 @@ function Desafio() {
                         texto="ir para o Inicio"
                     />
                 </Bar>
+                <Footer />
         </Page>
     )
 }
