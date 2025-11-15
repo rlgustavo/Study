@@ -1,0 +1,227 @@
+{
+    "AccessControl": {
+        "AccessRestrictedToUserGroups": "false",
+        "DomainGroupsEnabled": "true",
+        "UserGroupsBackend": "00000000-0000-0000-0000-000000000000",
+        "Rules": [
+            {
+                "Action": 0,
+                "Active": true,
+                "Description": "Permitir acesso aos administradores",
+                "Groups": [
+                    "Administrators"
+                ],
+                "Users": [],
+                "Computers": [],
+                "Locations": [],
+                "Times": []
+            }
+        ]
+    },
+    "Authentication": {
+        "Method": 1,
+        "KeyFileAuthentication": {
+            "PrivateKeyFile": "C:\\ProgramData\\Veyon\\keys\\private\\SGVM_v1_private.pem",
+            "PublicKeyDirectory": "C:\\ProgramData\\Veyon\\keys\\public"
+        }
+    },
+    "BuiltinDirectory": {
+        "NetworkObjects": {
+            "JsonStoreArray": [
+                {
+                    "Name": "VM Sala 1",
+                    "Type": 2,
+                    "Uid": "{3be56016-171a-4fa1-af2b-aad825bee332}"
+                },
+                {
+                    "Name": "VM Sala 2",
+                    "Type": 2,
+                    "Uid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-1",
+                    "Name": "SGVMPCSL1-1",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{5e41f3a2-444c-4e0b-b090-19512ffb1f2d}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-2",
+                    "Name": "SGVMPCSL1-2",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{2cc6e696-e8bb-4a94-b054-45b88bdab2dc}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-3",
+                    "Name": "SGVMPCSL1-3",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{33a60dd7-e349-4b13-8f7d-5fa88c0e3e98}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-4",
+                    "Name": "SGVMPCSL1-4",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{0c73d24b-f5d0-4e23-ae36-5855090249fd}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-5",
+                    "Name": "SGVMPCSL1-5",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{33b37265-d0ba-4be2-b6df-87c166f988aa}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-6",
+                    "Name": "SGVMPCSL1-6",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{5cdabe19-5d1f-44b7-9d09-32d73ad439b3}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-7",
+                    "Name": "SGVMPCSL1-7",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{944bf88f-9570-4055-af49-b96a3e1f6e81}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-8",
+                    "Name": "SGVMPCSL1-8",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{7dac4127-f76d-4940-8c13-9fcbebafa89e}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-9",
+                    "Name": "SGVMPCSL1-9",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{f2751a72-3ed3-4c30-af0c-7001ce829554}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-10",
+                    "Name": "SGVMPCSL1-10",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{e0836bb2-4d3a-4cf5-9e9e-e6584b106242}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-11",
+                    "Name": "SGVMPCSL1-11",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{87c60137-6371-4766-ac64-1f4aa5b4670e}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL1-12",
+                    "Name": "SGVMPCSL1-12",
+                    "ParentUid": "{3be56016-171a-4fa1-af2b-aad825bee332}",
+                    "Type": 3,
+                    "Uid": "{35d302cf-f7de-4255-80d6-5d816b924fdd}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-1",
+                    "Name": "SGVMPCSL2-1",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{3c32caef-069d-433d-ad73-cf97a6a9e527}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-2",
+                    "Name": "SGVMPCSL2-2",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{bc3d416c-998c-4e59-b851-7c39be60c41f}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-3",
+                    "Name": "SGVMPCSL2-3",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{69e3f372-2807-4a3b-ba48-3c8ae4998bcd}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-4",
+                    "Name": "SGVMPCSL2-4",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{a651cdce-a8d6-4c04-b57b-d478c845e420}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-5",
+                    "Name": "SGVMPCSL2-5",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{958c70da-04b8-4aae-8911-7252cdd10c9b}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-6",
+                    "Name": "SGVMPCSL2-6",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{0c437c72-ba0a-4055-909d-d46eaf253406}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-7",
+                    "Name": "SGVMPCSL2-7",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{3202ba73-5333-44cf-afa2-840376d5cff9}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-8",
+                    "Name": "SGVMPCSL2-8",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{f7c7f268-d39f-4946-ac89-3fc15411fd79}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-9",
+                    "Name": "SGVMPCSL2-9",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{a59bc878-6a3e-4a6f-a940-8107b5ae502e}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-10",
+                    "Name": "SGVMPCSL2-10",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{d5529a7e-8928-4535-8f7d-08328a30e983}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-11",
+                    "Name": "SGVMPCSL2-11",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{14eff672-1f06-421d-9bba-6b3ecf6f3232}"
+                },
+                {
+                    "HostAddress": "SGVMPCSL2-12",
+                    "Name": "SGVMPCSL2-12",
+                    "ParentUid": "{f959ea32-a03e-4748-b749-f86ebf100bbd}",
+                    "Type": 3,
+                    "Uid": "{5ac65c11-cc7c-4526-8083-db9938ea6fed}"
+                }
+            ]
+        }
+    },
+    "Core": {
+        "ApplicationVersion": 9,
+        "InstallationID": "75aa1936-a12a-429e-a893-513d3c8ab185"
+    },
+    "Network": {
+        "FirewallExceptionEnabled": "1",
+        "VeyonServerPort": 11100
+    },
+    "Service": {
+        "Autostart": "true",
+        "HideTrayIcon": "false"
+    },
+    "Windows": {
+        "SoftwareSASEnabled": "1"
+    }
+}
