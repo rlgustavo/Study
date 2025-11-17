@@ -1,0 +1,112 @@
+[gd_scene load_steps=4 format=3 uid="uid://cuhw8jh3yhcul"]
+
+[ext_resource type="PackedScene" uid="uid://g7707ib6dlaw" path="res://Scenes/player.tscn" id="1_g71ml"]
+[ext_resource type="PackedScene" uid="uid://biblhcyu70643" path="res://Scenes/tree.tscn" id="2_g71ml"]
+[ext_resource type="PackedScene" uid="uid://pmxykjnsexcn" path="res://mob.tscn" id="3_4f7oc"]
+
+[node name="WorldGame" type="Node2D"]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_top = 2.0
+offset_right = 1147.0
+offset_bottom = 644.0
+
+[node name="Player" parent="." instance=ExtResource("1_g71ml")]
+position = Vector2(576, 363)
+
+[node name="Tree" parent="." instance=ExtResource("2_g71ml")]
+position = Vector2(197, 152)
+
+[node name="Tree2" parent="." instance=ExtResource("2_g71ml")]
+position = Vector2(374, 495)
+
+[node name="Tree3" parent="." instance=ExtResource("2_g71ml")]
+position = Vector2(868, 89)
+
+[node name="Tree4" parent="." instance=ExtResource("2_g71ml")]
+position = Vector2(899, 503)
+
+[node name="mob" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(409, 64)
+
+[node name="mob2" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(117, 509)
+
+[node name="mob3" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(1007, 283)
+
+[node name="mob4" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(1455, 592)
+
+[node name="mob5" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-283, 673)
+
+[node name="mob6" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-522, 283)
+
+[node name="mob7" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(963, -237)
+
+[node name="mob8" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(172, -617)
+
+[node name="mob9" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-88, -151)
+
+[node name="mob10" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(497, -465)
+
+[node name="mob11" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(1353, 77)
+
+[node name="mob12" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(649, 965)
+
+[node name="mob13" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(161, 889)
+
+[node name="mob14" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(475, 1702)
+
+[node name="mob15" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-3534, 651)
+
+[node name="mob16" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-1713, 1290)
+
+[node name="mob17" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-2580, -53)
+
+[node name="mob18" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(2783, 1442)
+
+[node name="mob19" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(1255, 1128)
+
+[node name="mob20" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(2566, -42)
+
+[node name="mob21" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-1031, -2112)
+
+[node name="mob22" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(4202, -1798)
+
+[node name="mob23" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(5643, 1583)
+
+[node name="Tree5" parent="." instance=ExtResource("2_g71ml")]
+position = Vector2(-907, -408)
+
+[node name="Tree6" parent="." instance=ExtResource("2_g71ml")]
+position = Vector2(2871, -899)
+
+[node name="Tree7" parent="." instance=ExtResource("2_g71ml")]
+position = Vector2(3952, 846)
+
+[node name="mob24" parent="." instance=ExtResource("3_4f7oc")]
+position = Vector2(-1729, 327)
