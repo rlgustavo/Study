@@ -15,7 +15,8 @@ void main() {
     System.out.println("Digite sua peso: ");
     double peso = sc.nextDouble();
 
-    System.out.println("Digite sua comida: ");
+    System.out.println("Digite sua " +
+            "comida: ");
     String comida = sc.nextLine();
 
     System.out.println(peso);
