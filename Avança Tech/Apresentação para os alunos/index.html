@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Professor Gustavo Lima - Avança Tech</title>
+
+<style>
+/* -------------------------------------- */
+/* PALETA ROXO-TECH ESTILO NUBANK */
+/* -------------------------------------- */
+:root {
+  --bg: #0a0611;
+  --bg2: #130a22;
+  --card: #1d1230;
+  --card2: #25163f;
+  --accent: #b069ff;
+  --accent2: #cda0ff;
+  --text: #ffffff;
+}
+
+/* -------------------------------------- */
+/* RESET */
+/* -------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg), var(--bg2));
+  color: var(--text);
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+
+/* -------------------------------------- */
+/* CABEÇALHO COM DIGITAÇÃO */
+/* -------------------------------------- */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  animation: fadeIn 1.5s ease;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent2);
+  box-shadow: 0 0 15px var(--accent);
+}
+
+/* TEXTO DIGITADO */
+#typed {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: var(--accent2);
+  font-weight: 700;
+  min-height: 60px;
+  border-right: 2px solid var(--accent2);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 4s steps(30, end) forwards, blink 0.6s infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+header p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* -------------------------------------- */
+/* SEÇÕES */
+/* -------------------------------------- */
+.section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: var(--card);
+  border-radius: 18px;
+  box-shadow: 0 0 20px rgba(180, 110, 255, 0.2);
+  animation: fadeUp 1s ease;
+}
+
+.section h2 {
+  font-size: 1.9rem;
+  color: var(--accent2);
+  margin-bottom: 10px;
+}
+
+/* -------------------------------------- */
+/* LOGOS DAS ESCOLAS */
+/* -------------------------------------- */
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.logos img {
+  width: 120px;
+  transition: 0.3s;
+  filter: drop-shadow(0 0 10px var(--accent));
+}
+
+.logos img:hover {
+  transform: scale(1.1);
+}
+
+/* -------------------------------------- */
+/* AVANÇA TECH CAIXA */
+/* -------------------------------------- */
+.course-box {
+  background: linear-gradient(135deg, var(--card2), #2d1a50);
+  margin: 20px 0;
+  padding: 22px;
+  border-radius: 15px;
+  border: 1px solid var(--accent2);
+  box-shadow: 0 0 12px rgba(190, 140, 255, 0.2);
+  transition: 0.3s ease;
+}
+
+.course-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 22px rgba(200, 150, 255, 0.4);
+}
+
+/* -------------------------------------- */
+/* TIMELINE MODERNA */
+/* -------------------------------------- */
+.timeline {
+  list-style: none;
+  padding-left: 25px;
+  border-left: 3px solid var(--accent2);
+}
+
+.timeline li {
+  margin: 25px 0;
+  padding-left: 20px;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  opacity: 0;
+  animation: slideFade 1s forwards;
+}
+
+.timeline li::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: var(--accent2);
+  border-radius: 50%;
+  position: absolute;
+  left: -28px;
+  top: 6px;
+  box-shadow: 0 0 10px var(--accent2);
+}
+
+@keyframes slideFade {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* -------------------------------------- */
+/* LINKS */
+/* -------------------------------------- */
+a {
+  color: var(--accent2);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+/* -------------------------------------- */
+/* FOOTER */
+/* -------------------------------------- */
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 1.1rem;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ========================================================= -->
+<!-- CABEÇALHO COM FOTO + TEXTO DIGITANDO -->
+<!-- ========================================================= -->
+<header>
+  <img src="./img/Profile.png" class="profile" alt="Foto de Gustavo" />
+  <div id="typed">Olá! Sou Gustavo Lima</div>
+  <p>Professor de Tecnologia | Desenvolvedor | Educador inspirado por inovação.</p>
+</header>
+
+<!-- ========================================================= -->
+<!-- SOBRE MIM -->
+<!-- ========================================================= -->
+<section class="section">
+  <h2>Sobre mim</h2>
+  <p>
+    Há mais de 2 anos atuo como educador, ensinando programação para crianças,
+    adolescentes e adultos. Acredito que a tecnologia transforma vidas e meu
+    objetivo é preparar meus alunos para o futuro.
+  </p>
+
+  <p style="margin-top: 10px;">Atualmente ensino nas instituições:</p>
+
+  <div class="logos">
+    <img src="./img/MapleBear.png" />
+    <img src="./img/Avenues.png" />
+    <img src="./img/Supergeeks.png" />
+  </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- AVANÇA TECH -->
+<!-- ========================================================= -->
+<section class="section">
+  <h2>Avança Tech</h2>
+
+  <p>O Avança Tech é um programa da <strong>Fundação Paulistana</strong> que oferece
+  cursos profissionalizantes gratuitos para jovens e adultos que desejam entrar na
+  área da tecnologia.</p>
+
+  <p>Eu sou professor responsável por dois cursos:</p>
+
+  <div class="course-box">
+    <h3 style="color: var(--accent2);">📌 Desenvolvimento BACK-END JAVA</h3>
+    <p>Aulas: Segunda e Quarta</p>
+  </div>
+
+  <div class="course-box">
+    <h3 style="color: var(--accent2);">📌 Desenvolvimento BACK-END PHP</h3>
+    <p>Aulas: Terça e Quinta</p>
+  </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- MÓDULOS JAVA -->
+<!-- ========================================================= -->
+<section class="section">
+  <h2>Módulos — Back-End Java</h2>
+
+  <div class="course-box">
+    <h3 style="color: var(--accent2);">✨ MÓDULO 1 — Fundamentos do Java</h3>
+    <ul class="timeline">
+      <li style="--i:1">Introdução à linguagem Java</li>
+      <li style="--i:2">Tipos de dados, literais e variáveis</li>
+      <li style="--i:3">Operadores</li>
+      <li style="--i:4">Estruturas de controle</li>
+      <li style="--i:5">Introdução à orientação a objetos</li>
+      <li style="--i:6">Métodos</li>
+      <li style="--i:7">Construtores</li>
+      <li style="--i:8">Arrays</li>
+      <li style="--i:9">Herança, classes abstratas e polimorfismo</li>
+      <li style="--i:10">Interfaces</li>
+      <li style="--i:11">Construtores</li>
+      <li style="--i:12">Construtores</li>
+      <li style="--i:13">Construtores</li>
+      <li style="--i:14">Construtores</li>
+      <li style="--i:15">Construtores</li>
+    </ul>
+  </div>
+
+  <div class="course-box">
+    <h3 style="color: var(--accent2);">🚀 MÓDULO 2 — Java Profissional</h3>
+    <ul class="timeline">
+      <li style="--i:1">Programação Orientada a Objetos (POO)</li>
+      <li style="--i:2">Classes, objetos, herança e polimorfismo</li>
+      <li style="--i:3">Tratamento de exceções</li>
+      <li style="--i:4">APIs, serviços REST e JSON</li>
+      <li style="--i:5">Projeto final de aplicação</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- MÓDULOS PHP -->
+<!-- ========================================================= -->
+<section class="section">
+  <h2>Módulos — Back-End PHP</h2>
+
+  <div class="course-box">
+    <h3 style="color: var(--accent2);">✨ MÓDULO 1 — PHP Essencial</h3>
+    <ul class="timeline">
+      <li style="--i:1">Introdução ao PHP e ambiente</li>
+      <li style="--i:2">Variáveis, arrays e funções</li>
+      <li style="--i:3">Estruturas condicionais e loops</li>
+      <li style="--i:4">Manipulação de formulários</li>
+      <li style="--i:5">Introdução ao MySQL</li>
+    </ul>
+  </div>
+
+  <div class="course-box">
+    <h3 style="color: var(--accent2);">🚀 MÓDULO 2 — PHP Avançado</h3>
+    <ul class="timeline">
+      <li style="--i:1">CRUD completo com PHP + MySQL</li>
+      <li style="--i:2">Integração com APIs</li>
+      <li style="--i:3">Segurança e autenticação</li>
+      <li style="--i:4">Estrutura MVC</li>
+      <li style="--i:5">Projeto final profissional</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ========================================================= -->
+<!-- JORNADA PROFISSIONAL -->
+<!-- ========================================================= -->
+<section class="section">
+  <h2>Jornada profissional</h2>
+  <ul class="timeline">
+    <li>Início como desenvolvedor e professor.</li>
+    <li>Experiência com jogos, sites e lógica de programação.</li>
+    <li>Atuação em escolas tradicionais e internacionais.</li>
+    <li>Avanço para o ensino profissionalizante e tecnologia real de mercado.</li>
+  </ul>
+</section>
+
+<!-- ========================================================= -->
+<!-- GITHUB -->
+<!-- ========================================================= -->
+<section class="section">
+  <h2>GitHub & Portfólio</h2>
+  <p>Veja meus projetos, estudos e aplicações completas:</p>
+
+  <a href="https://github.com/rlgustavo" target="_blank">
+    ➜ github.com/rlgustavo
+  </a>
+</section>
+
+<!-- ========================================================= -->
+<!-- FOOTER -->
+<!-- ========================================================= -->
+<div class="footer">
+  “Tecnologia não é sobre máquinas. É sobre pessoas criando possibilidades.”
+</div>
+
+</body>
+</html>
