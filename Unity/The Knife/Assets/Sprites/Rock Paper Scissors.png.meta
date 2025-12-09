@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rock Paper Scissors_0
+      name: ROCK
       rect:
         serializedVersion: 2
         x: 0
@@ -105,7 +105,7 @@ TextureImporter:
         width: 270
         height: 328
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,7 +118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rock Paper Scissors_1
+      name: Scissors
       rect:
         serializedVersion: 2
         x: 390
@@ -126,7 +126,7 @@ TextureImporter:
         width: 261
         height: 437
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rock Paper Scissors_2
+      name: PAPER
       rect:
         serializedVersion: 2
         x: 712
@@ -147,7 +147,7 @@ TextureImporter:
         width: 422
         height: 476
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,9 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rock Paper Scissors_0: 738305475
-      Rock Paper Scissors_1: -639921573
-      Rock Paper Scissors_2: -1090115035
+      PAPER: -1090115035
+      ROCK: 738305475
+      Scissors: -639921573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
